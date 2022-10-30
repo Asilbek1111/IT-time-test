@@ -1,0 +1,24 @@
+.services {
+  .container {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    .card {
+      width: 10rem;
+      border: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 33%;
+      }
+      p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 1rem;
+      }
+    }
+  }
+}

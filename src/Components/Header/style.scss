@@ -1,0 +1,29 @@
+.header {
+  height: 100vh;
+  background-color: #00091f;
+
+  .container {
+    padding-top: 6rem;
+    display: flex;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+
+    .left {
+      color: white;
+      flex: 1;
+
+      h1 {
+        font-size: 59px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+    }
+    .right {
+      flex: 1;
+
+      .btn {
+        font-size: 30px;
+      }
+    }
+  }
+}
